@@ -1,0 +1,17 @@
+:root{
+    --marrom: rgb(201, 110, 110);
+    --azul: rgb(113, 113, 203);
+    --branca:  white;
+    --preto: black;
+    --verde: rgb(75, 181, 64);
+
+}
+
+body{
+    align-items: center;
+    background-color: var(--azul);
+    display: flex;
+    justify-content: center;
+    flex-direction: colum;
+    min-height: 10vh;
+}
